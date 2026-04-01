@@ -142,19 +142,19 @@ require("lazy").setup({
   -- Themes
   --------------------------------------------------------
   {
-    -- 1. "morhetz/gruvbox",
-    -- 2. "folke/tokyonight.nvim",
-    -- 3. "nickkadutskyi/jb.nvim",
-    -- 4. 'olivercederborg/poimandres.nvim',
-    "kdheepak/monochrome.nvim",
+    "morhetz/gruvbox", -- 1
+    -- "folke/tokyonight.nvim", -- 2 
+    -- "nickkadutskyi/jb.nvim", -- 3
+    -- "olivercederborg/poimandres.nvim", -- 4
+    -- "kdheepak/monochrome.nvim", -- 5
     priority = 1000,
     config = function()
       -- vim.cmd.colorscheme("")
-      -- 1. vim.cmd.colorscheme("gruvbox")
-      -- 2. vim.cmd.colorscheme("tokyonight")
-      -- 3. vim.cmd.colorscheme("jb")
-      -- 4. vim.cmd.colorscheme("poimandres")
-      vim.cmd.colorscheme("monochrome")
+      vim.cmd.colorscheme("gruvbox") -- 1
+      -- vim.cmd.colorscheme("tokyonight") --2
+      -- vim.cmd.colorscheme("jb") -- 3
+      -- vim.cmd.colorscheme("poimandres") -- 4
+      -- vim.cmd.colorscheme("monochrome") -- 5
     end,
   }, 
 
